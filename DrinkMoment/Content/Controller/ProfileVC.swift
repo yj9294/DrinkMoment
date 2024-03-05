@@ -76,7 +76,7 @@ extension ProfileVC: UITableViewDelegate, UITableViewDataSource {
                 vc.hidesBottomBarWhenPushed = true
                 navigationController?.pushViewController(vc, animated: true)
             } else {
-                if let url = URL(string: "") {
+                if let url = URL(string: "itms-apps://itunes.apple.com/cn/app/6478917939") {
                     UIApplication.shared.open(url)
                 }
             }
